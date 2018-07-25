@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Aaron's Portfolio</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/application.css">
+  </head>
+  <body>
+
+
+
+      <!-- Content here -->
+      <div class="text-center">
+        <img src="background.jpg" class="img-fluid" style="border-bottom: -20%;margin-top: -20%;max-width: 100%; border-top: 100px; padding-top: 10px; max-height: 100%; margin-bottom: -30%" alt="Responsive image">
+        <h1 style="margin-top: -15%;font-family: Helvetica ;font-size: 100px; color: black">Aaron's Portfolio</h1>
+      </div>
+
+     <img src="profile_pic.jpg" class="rounded float-left" style="margin-top: 25%;margin-left: 5%;border-radius: 50%;max-height: 200px; max-width: 50%" alt="...">
+
+    <div class="container">
+    <h1> About me: </h1>
+
+    <p>    I am originally from San Jose, California, and am now living in Montreal, Canada. I have a B.S. degree in Physics from SJSU, but now I am a full-time web developer. After graduating from SJSU I worked as a QA engineer at Oracle for about 2 years. This job mostly consisted of writing test scripts using Bash and TCL. The testing consisted of stressing different components on X5-2 servers. After getting laid off from Oracle I then worked at a company called Hyve Solutions (subsidiary of Synnex), where I did similar work. I wrote Bash scripts for stressing various types of servers for multiple different companies. I worked there for about 2 years. After leaving the company I joined Le Wagon boot camp where I learned how to create web apps using Ruby on Rails. </p>
+
+    <p>    I enjoy coding in my free time. I've built projects using React.js, node.js, Ajax, Angular, Ruby on rails, bootstrap CSS, etc. </p>
+  </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="/application.js"></script>
+  </body>
+</html>
